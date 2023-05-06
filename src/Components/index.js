@@ -1,1 +1,1 @@
-export { default as IntroductionBox } from "./IntroductionBox";
+export { default as BoxWithButton } from "./BoxWithButton";
