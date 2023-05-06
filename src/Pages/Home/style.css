@@ -1,2 +1,8 @@
 .container-home {
+  width: 100%;
+}
+
+.container-home-button {
+  width: 500px;
+  height: 300px;
 }
