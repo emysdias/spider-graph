@@ -30,7 +30,7 @@ const Result = () => {
       });
 
       subDependencyInput.forEach((letter, i) => {
-        dependencies[letter] = splitArray(subDependencyListInput[i]);
+        dependencies[letter] = subDependencyListInput[i].split(", ");
       });
       return dependencies;
     };
