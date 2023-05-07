@@ -1,12 +1,15 @@
 import { BoxWithImage } from "../../Components";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 import spider from "../../Assets/spider-man-smile.png";
 import "./style.css";
 
 const Result = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const value = "Sem resultado";
+
+  console.log(location);
 
   const redirectToHome = () => {
     navigate("/home");
