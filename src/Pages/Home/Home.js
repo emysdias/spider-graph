@@ -18,6 +18,10 @@ const Home = () => {
     ) {
       window.alert("Preencha os inputs vazios!!");
     } else {
+
+      // console.log(dependenciesInput)
+      // console.log(subDependencyInput)
+      // console.log(subDependencyListInput)
       navigate("/resultado", {
         state: {
           dependenciesInput: dependenciesInput,
