@@ -1,8 +1,11 @@
-.container-home {
-  width: 100%;
-}
-
-.container-home-button {
-  width: 500px;
-  height: 300px;
+.container-Home {
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }

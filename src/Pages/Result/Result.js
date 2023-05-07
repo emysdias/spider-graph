@@ -1,4 +1,4 @@
-import { BoxWithButton } from "../../Components";
+import { BoxWithImage } from "../../Components";
 import { useNavigate } from "react-router-dom";
 
 import spider from "../../Assets/spider-man-smile.png";
@@ -13,7 +13,7 @@ const Result = () => {
   };
   return (
     <div className="container-Result">
-      <BoxWithButton
+      <BoxWithImage
         onClick={redirectToHome}
         imagePath={spider}
         buttonText={"Tentar novamente"}

@@ -1,4 +1,4 @@
-.container-BoxWithButton {
+.container-BoxWithImage {
   display: block;
   background-color: #171017;
   width: 70%;
@@ -9,13 +9,13 @@
   border-radius: 10px;
 }
 
-.container-BoxWithButton-image {
+.container-BoxWithImage-image {
   max-width: 50%;
   max-height: 25%;
   position: absolute;
 }
 
-.container-BoxWithButton-text {
+.container-BoxWithImage-title {
   display: flex;
   color: #f2f3fa;
   width: 60%;
@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.container-BoxWithButton-button {
+.container-BoxWithImage-button {
   width: 60%;
   margin: auto;
   border: none;

@@ -1,0 +1,40 @@
+.container-DependencyBox {
+  display: block;
+  background-color: #171017;
+  width: 70%;
+  max-width: 1000px;
+  height: 600px;
+  position: absolute;
+  border: 4px solid #780400;
+  border-radius: 10px;
+}
+
+.container-DependencyBox-title {
+  color: #f2f3fa;
+}
+
+.container-DependencyBox-button {
+  width: 60%;
+  margin: auto;
+  border: none;
+  background: #1b2b8e;
+  color: #f2f3fa;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.container-DependencyBox-input-box {
+  display: flex;
+  border: 4px solid #780400;
+}
+
+.container-DependencyBox-text {
+  color: #f2f3fa;
+}
