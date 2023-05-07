@@ -22,23 +22,23 @@ const Result = () => {
   const splitDependenciesInput = splitArray(dependenciesInput);
 
   useEffect(() => {
+    const createDependenciesObject = (letters) => {
+      const dependencies = {};
+
+      letters.forEach((letter) => {
+        dependencies[letter] = [];
+      });
+
+      subDependencyInput.forEach((letter, i) => {
+        dependencies[letter] = splitArray(subDependencyListInput[i]);
+      });
+      return dependencies;
+    };
+
     const myDependencies = createDependenciesObject(splitDependenciesInput);
     let result = Graph(myDependencies);
     setResultText(result ?? "Ocorreu um erro!");
-  }, []);
-
-  const createDependenciesObject = (letters) => {
-    const dependencies = {};
-
-    letters.forEach((letter) => {
-      dependencies[letter] = [];
-    });
-
-    subDependencyInput.forEach((letter, i) => {
-      dependencies[letter] = splitArray(subDependencyListInput[i]);
-    });
-    return dependencies;
-  };
+  }, [splitDependenciesInput, subDependencyInput, subDependencyListInput]);
 
   const redirectToHome = () => {
     navigate("/home");
