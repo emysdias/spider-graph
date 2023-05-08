@@ -23,11 +23,11 @@ Solução possível: E, C, B, D, A
 
 * Em "Adicione a(s) dependência(s) do projeto", deve ser adicionado as depêndencias com o valor seguido de uma vírgula e espaço, exemplo: "A, B, C, D, E"
 
-* Em "Adicione a(s) dependência(s) da(s) dependência(s) do projeto", no primeiro input "Dep", deve ser colocado uma dependência adicionado no input anterior. No input em frente do de Dep, deve ser adicionado as dependências das dependências, como o primeiro input, exemplo: "B, C"...
+* Em "Adicione a(s) dependência(s) da(s) dependência(s) do projeto", no primeiro input "Dep", deve ser colocado um valor adicionado no input anterior, exemplo "B". No input em frente do de Dep, deve ser adicionado as dependências das dependências, como o primeiro input, exemplo: "E, C"...
 
 Segue o vídeo abaixo com um exemplo, e demonstração de ser responsivo (Caso ocorra um erro, o vídeo está na pasta "src/Assets/demonstracao.mp4"):
 
-![Reunião-com-Emily-Dias-Sousa-20230507_214957-Gravação-de-Reunião-_online-video-cutter com_](https://user-images.githubusercontent.com/52640974/236712366-5cad9adf-f734-48b4-be4a-d734ca839822.gif)
+[Clique aqui para assistir o vídeo](https://user-images.githubusercontent.com/52640974/236713032-cc26d5be-6383-458f-af12-da8ae968d124.mp4)
 
 ## 🔨 Restrições
 
