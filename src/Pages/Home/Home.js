@@ -1,8 +1,9 @@
-import { DependencyBox } from "../../Components";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import { DependencyBox } from "../../Components";
+
 import "./style.css";
-import { useState } from "react";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -18,10 +19,6 @@ const Home = () => {
     ) {
       window.alert("Preencha os inputs vazios!!");
     } else {
-
-      // console.log(dependenciesInput)
-      // console.log(subDependencyInput)
-      // console.log(subDependencyListInput)
       navigate("/resultado", {
         state: {
           dependenciesInput: dependenciesInput,

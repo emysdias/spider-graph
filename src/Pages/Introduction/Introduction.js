@@ -1,5 +1,6 @@
-import { BoxWithImage } from "../../Components";
 import { useNavigate } from "react-router-dom";
+
+import { BoxWithImage } from "../../Components";
 
 import spider from "../../Assets/spider-man.png";
 import "./style.css";
